@@ -10,7 +10,11 @@
 - Domain: Route53
 - GitHub: static website content in this repository
 - Hosting: CloudFront distribution with S3 bucket as origin.
-- Publishing: commits are automatically pushed to S3 using CodePipeline's integration with GitHub. Pipeline execution notifications are done with SNS+SES.
+- Automation: commits are automatically pulled into the S3 bucket using CodePipeline's integration with GitHub. Pipeline execution notifications are done with SNS+SES.
 
 ## Why
 - This is obviously overkill for a single page static website, but I wanted to test some AWS features and I figured this was a good way to accomplish that.
+
+## To-Do List
+- Perhaps try file versions in S3 so the CloudFront distribution refreshes more quickly after a commit is pulled from GitHub. Right now the cache settings are configured in the distribution itself, so it may take a while for latest commit to sync across all CloudFront edge locations. This would be more useful for sites that content is changed more often.
+
