@@ -10,7 +10,7 @@
 - Domain: Route53
 - GitHub: static website content in this repository
 - Hosting: CloudFront distribution with S3 bucket as origin.
-- Automation: commits are automatically pulled into the S3 bucket using CodePipeline's integration with GitHub. Pipeline execution notifications are done with SNS+SES.
+- Automation: commits are automatically pulled into the S3 bucket using the AWS CodePipeline integration with GitHub. Pipeline execution notifications are done with SNS+SES.
 
 ## Why
 - This is obviously overkill for a single page static website, but I wanted to test some AWS features and I figured this was a good way to accomplish that.
