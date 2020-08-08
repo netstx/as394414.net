@@ -4,7 +4,7 @@
 - Simple static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist).
 
 ## Where
-- [as394414.net](https://as394414.net) is hosted on my personal AWS account.
+- [as394414.net](https://as394414.net) is hosted on AWS.
 
 ## How
 - Domain: Route53
