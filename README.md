@@ -1,7 +1,7 @@
 # as394414.net
 
 ## What
-- Simple static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist).
+- Static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist).
 
 ## Where
 - [as394414.net](https://as394414.net) is hosted on AWS.
