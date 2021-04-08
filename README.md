@@ -7,8 +7,8 @@
 - [as394414.net](https://as394414.net) is hosted on AWS.
 
 ## How
-- DNS: Route53
-- GitHub: static website content in this repository
+- DNS: Route53.
+- GitHub: static website content in this repository.
 - Hosting: CloudFront distribution with S3 bucket as origin.
 - Automation: commits are automatically pulled into the S3 bucket using the AWS CodePipeline integration with GitHub Webhooks. Pipeline execution notifications are done with SNS+SES.
 
