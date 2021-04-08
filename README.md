@@ -1,6 +1,6 @@
 # as394414.net
 
-## What?
+### What?
 - Static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist).
 
 ## Where?
