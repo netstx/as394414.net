@@ -16,5 +16,5 @@
 - This is obviously overkill for a single page static website, but I wanted to test some AWS features and I figured this was a good way to accomplish that.
 
 ## To-Do List
-- Perhaps try file versions in S3 so the CloudFront distribution refreshes more quickly after a commit is pulled from GitHub. Right now the cache settings are configured in the distribution itself, so it may take a while for latest commit to sync across all CloudFront edge locations. This would be more useful for sites that content is changed more often.
+- Use file versions in S3 so the CloudFront distribution refreshes more quickly after a commit is pulled from GitHub. Right now the cache settings are configured in the distribution itself, so it may take a while for latest commit to sync across all CloudFront edge locations. This would be more useful for sites that content is changed more often.
 
