@@ -1,7 +1,7 @@
 # as394414.net
 
 ## What?
-- Static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist).
+- Static website for AS394414 using the [minimal theme](https://github.com/orderedlist/minimal) by [orderedlist](https://github.com/orderedlist). 
 
 ## Where?
 - [as394414.net](https://as394414.net) is hosted on AWS.
@@ -18,4 +18,7 @@
 ## To-Do List:
 - Use file versions in S3 so the CloudFront distribution refreshes more quickly after a commit is pulled from GitHub. Right now the cache settings are configured in the distribution itself, so it may take a while for latest commit to sync across all CloudFront edge locations. This would be more useful for sites that content is changed more often.
 - Review architecture to match with latest recommendations from AWS.
+
+### License
+The [minimal theme](https://github.com/orderedlist/minimal) is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 
