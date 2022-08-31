@@ -4,7 +4,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta charset="utf-8" />
 		<title>AS394414</title>
-		<!-- Latest change: 8-25-22 08:59AM -->
+		<!-- Latest change: 8-31-22 07:24AM -->
 		<link rel="stylesheet" href="stylesheets/styles.css" />
 		<link rel="stylesheet" href="stylesheets/pygment_trac.css" />
 		<meta name="viewport" content="width=device-width" />
@@ -33,31 +33,46 @@
 				<h1>About</h1>
 
 				<p>AS394414 operates out of the Midwest and has an open peering policy.</p>
-
-				<h1>Peering</h1>
+				
+				<h1>Policy</h1>
 				<style type="text/css">
 					span.ltrText {unicode-bidi: bidi-override; direction: rtl}
 				</style>
+				<p>Networks wishing to establish peering on a settlement-free basis can initiate a request via NOC, please include details such as ASN, IRR objects and routing policies.</p>
 				
-				<p>Network Operators wishing to establish peering with AS394414 on a settlement-free basis can initiate a request via e-mail, please include details such as ASN and IRR or routing policies.</p>
+				<h2>Prefix Filtering</h2<
+				
+				<p>Prefix filters are generated using IRR objects and are refreshed on a nightly basis. A NOC ticket can be opened to request manual refresh.</p>
+				
+				<h2>Communities</h2>
+				
+				<p>List of BGP communities used:</p>
 				
 				<table>
 					<tbody>
 						<tr>
-							<td>NOC</td>
-							<td><span class="ltrText">ten.414493sa@con</span></td>
+							<th>Large Community</th>
+							<th>Meaning</th>
 						</tr>
 						<tr>
-							<td>Peering</td>
-							<td><span class="ltrText">ten.414493sa@gnireep</span></td>
+							<td>394414:0:12</td>
+							<td>Learned from upstream</td>
 						</tr>
 						<tr>
-							<td><span class="ltrText">enohP</span></td>
-							<td><span class="ltrText">0006-962 (414) 1+</span></td>
+							<td>394414:0:13</td>
+							<td>Learned from route server</td>
+						</tr>
+						<tr>
+							<td>394414:0:14</td>
+							<td>Learned from peers</td>
+						</tr>
+						<tr>
+							<td>394414:0:15</td>
+							<td>Learned from downstream</td>
 						</tr>
 					</tbody>
 				</table>
-
+				
 				<h1>Peers</h1>
 
 				<table>
@@ -117,11 +132,6 @@
 							<td>Route48</td>
 							<td>LIVE</td>
 						</tr>
-						<tr>
-							<td>AS20473</td>
-							<td>VULTR</td>
-							<td>LIVE</td>
-						</tr>
 					</tbody>
 				</table>
 
@@ -133,13 +143,32 @@
 							<th>Exchange</th>
 							<th>Name</th>
 							<th>Facility</th>
-							<th>Status</th>
+							<th>Route Servers</th>
 						</tr>
 						<tr>
 							<td><a target="_blank" rel="noopener noreferrer" href="https://www.qcix.net/">QCIX</a></td>
 							<td>Quad Cities Internet eXchange</td>
 							<td><a target="_blank" rel="noopener noreferrer" href="https://www.peeringdb.com/fac/10411">BBQC</a></td>
-							<td>LIVE</td>
+							<td>Yes</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<h1>Contact</h1>
+				
+				<table>
+					<tbody>
+						<tr>
+							<td>NOC</td>
+							<td><span class="ltrText">ten.414493sa@con</span></td>
+						</tr>
+						<tr>
+							<td>Peering</td>
+							<td><span class="ltrText">ten.414493sa@gnireep</span></td>
+						</tr>
+						<tr>
+							<td><span class="ltrText">enohP</span></td>
+							<td><span class="ltrText">0006-962 (414) 1+</span></td>
 						</tr>
 					</tbody>
 				</table>
